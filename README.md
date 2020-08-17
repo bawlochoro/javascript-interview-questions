@@ -2,12 +2,35 @@
 This repo contains list of javascript interview questions
 
 ### What is the difference between primitive and reference data type?
-### What's the difference between `let` `var` and `const` in JavaScript?
+### What is the difference between `let` `var` and `const` in JavaScript?
 ### What is hoisting?
-### What is closure and what are its advantages and disadvantages?
-### Define add function which can be invoked like below:
+### What is the output of the following:
 ```javascript
-console.log(add(1)(2)(3)); // return 6
+console.log(x);
+console.log(y);
+console.log(z);
+
+var x = 10;
+let y = 10;
+const z = 10;
+```
+## What is the output of the following:
+```javascript
+f1();
+f2();
+
+function f1() {
+  console.log(1);
+}
+
+var f2 = function() {
+  console.log(2);
+};
+```
+### What is closure and what are its advantages and disadvantages?
+### Define `add` function which can be invoked like below:
+```javascript
+add(1)(2)(3); // return 6
 ```
 ### How to check the type of value?
 ### What is the difference between normal function and arrow function?
