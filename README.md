@@ -1,7 +1,7 @@
 # javascript-interview-questions
 This repo contains list of javascript interview questions
 
-## What is the difference between primitive and reference data type?
+### What is the difference between primitive and reference data type?
 ## What's the difference between `let` `var` and `const` in JavaScript?
 ## What is hoisting?
 ## What is closure and what are its advantages and disadvantages?
