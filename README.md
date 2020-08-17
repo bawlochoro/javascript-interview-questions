@@ -36,6 +36,23 @@ add(1)(2)(3); // return 6
 ### What is the difference between normal function and arrow function?
 ### What's the difference between `null` `undefine` and `not defined` in JavaScript?
 ### What's the difference between `==` and `===`?
+## What is the output of the following:
+```javascript
+console.log(2==2);
+console.log(2===2);
+console.log(2=='2');
+console.log(2=='2');
+console.log(undefined == null);
+console.log(undefined === null);
+console.log(NaN == NaN);
+console.log(NaN === NaN);
+console.log([] == []);
+console.log([] === []);
+console.log([1, 2, 3] == [1, 2, 3]);
+console.log([1, 2, 3] === [1, 2, 3]);
+console.log({} == {});
+console.log({} === {});
+```
 ### What's the difference between `slice` and `splice` method?
 ### Define a `repeat` function on array which which can be invoked like below:
 ```javascript
@@ -44,3 +61,4 @@ array.repeat(2); // return [1, 1, 2, 2, 3, 3];
 array.repeat(3); // return [1, 1, 1, 2, 2, 2, 3, 3, 3];
 [2, 3].repeat(1) // return [2,3]
 ```
+### What's the difference between `call`, `apply` and `bind` method?
