@@ -1,4 +1,4 @@
-# javascript-interview-questions
+# Javascript Interview Questions
 This repo contains list of javascript interview questions
 
 ### What is the difference between primitive and reference data type?
@@ -33,10 +33,43 @@ var f2 = function() {
 add(1)(2)(3); // return 6
 ```
 ### How to check the type of value?
+### What is `this` keyword?
 ### What is the difference between normal function and arrow function?
-### What's the difference between `null` `undefine` and `not defined` in JavaScript?
+### What is the output of the following:
+```javascript
+  function f1() {
+    console.log(this);
+  }
+  
+  var f2 = () => {
+    console.log(this);
+  }
+  
+  f1();
+  f2();
+  
+  var obj = {
+    f1: function() {
+      console.log(this);
+    },
+    f2: function() {
+      setTimeout(function() {
+        console.log(this);
+      }, 0);
+    },
+    f3: function() {
+      setTimeout(() => {
+        console.log(this);
+      }, 0);
+    },
+  };
+  obj.f1();
+  obj.f2();
+  obj.f3();
+```
+### What's the difference between `null` `undefined` and `not defined` in JavaScript?
 ### What's the difference between `==` and `===`?
-## What is the output of the following:
+### What is the output of the following:
 ```javascript
 console.log(2==2);
 console.log(2===2);
