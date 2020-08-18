@@ -141,7 +141,7 @@ console.log({} === {});
 ### What's the difference between `slice` and `splice` methods?
 ### Define a `repeat` function on array which which can be invoked like below:
 ```javascript
-var array = [1, 2, 3]
+var array = [1, 2, 3];
 array.repeat(2); // return [1, 1, 2, 2, 3, 3];
 array.repeat(3); // return [1, 1, 1, 2, 2, 2, 3, 3, 3];
 [2, 3].repeat(1) // return [2, 3]
@@ -151,9 +151,29 @@ array.repeat(3); // return [1, 1, 1, 2, 2, 2, 3, 3, 3];
 ## Objects
 
 ### What are the different ways to define objects in Javascript?
+### What is the difference between classical inheritance and prototypal inheritance?
+
+## Promise, Async/Await?
+
+### What is promise and how its different from callback?
+### Implement polyfill for promise
+### What is async/await?
 
 ## Others
 
 ### Is javascript a single threaded or multi-threaded language?
 ### What is event loop and how it works?
+### What is the output of the following:
+```javascript
+console.log(1);
+
+console.log(2);
+
+setTimeout(function() {
+  console.log(3);
+}, 0);
+
+console.log(4);
+
+```
 ### What is the difference between `async` and `defer` attribute in script tag?
