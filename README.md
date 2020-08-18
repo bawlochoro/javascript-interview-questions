@@ -8,6 +8,7 @@ This repo contains list of javascript interview questions
 ### What's the difference between `null` `undefined` and `not defined` in JavaScript?
 ### How to check the type of value?
 ### What is `this` keyword?
+### What is `NaN` in javascript?
 
 ## Hoisting
 
