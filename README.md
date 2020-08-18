@@ -1,8 +1,16 @@
 # Javascript Interview Questions
 This repo contains list of javascript interview questions
 
+## Variables and DataTypes
+
 ### What is the difference between primitive and reference data type?
 ### What is the difference between `let` `var` and `const` in JavaScript?
+### What's the difference between `null` `undefined` and `not defined` in JavaScript?
+### How to check the type of value?
+### What is `this` keyword?
+
+## Hoisting
+
 ### What is hoisting?
 ### What is the output of the following:
 ```javascript
@@ -27,13 +35,11 @@ var f2 = function() {
   console.log(2);
 };
 ```
-### What is closure and what are its advantages and disadvantages?
-### Define `add` function which can be invoked like below:
-```javascript
-add(1)(2)(3); // return 6
-```
-### How to check the type of value?
-### What is `this` keyword?
+
+## Functions
+
+### What are the different ways to define function in javascript?
+### What is the difference between function and method?
 ### What is the difference between normal function and arrow function?
 ### What is the output of the following:
 ```javascript
@@ -67,25 +73,44 @@ add(1)(2)(3); // return 6
   obj.f2();
   obj.f3();
 ```
-### What's the difference between `null` `undefined` and `not defined` in JavaScript?
+### What's the difference between `call`, `apply` and `bind` method?
+
+## Closure
+
+### What is closure and what are its advantages and disadvantages?
+### Define `add` function which can be invoked like below:
+```javascript
+add(1)(2)(3); // return 6
+```
+
+## Equality Operators
+
 ### What's the difference between `==` and `===`?
 ### What is the output of the following:
 ```javascript
 console.log(2==2);
 console.log(2===2);
+
 console.log(2=='2');
 console.log(2=='2');
+
 console.log(undefined == null);
 console.log(undefined === null);
+
 console.log(NaN == NaN);
 console.log(NaN === NaN);
+
 console.log([] == []);
 console.log([] === []);
+
 console.log([1, 2, 3] == [1, 2, 3]);
 console.log([1, 2, 3] === [1, 2, 3]);
+
 console.log({} == {});
 console.log({} === {});
 ```
+## Arrays
+
 ### What's the difference between `slice` and `splice` method?
 ### Define a `repeat` function on array which which can be invoked like below:
 ```javascript
@@ -94,4 +119,3 @@ array.repeat(2); // return [1, 1, 2, 2, 3, 3];
 array.repeat(3); // return [1, 1, 1, 2, 2, 2, 3, 3, 3];
 [2, 3].repeat(1) // return [2,3]
 ```
-### What's the difference between `call`, `apply` and `bind` method?
