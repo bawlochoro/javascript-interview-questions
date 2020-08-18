@@ -9,6 +9,19 @@ This repo contains list of javascript interview questions
 ### How to check the type of value?
 ### What is `this` keyword?
 ### What is `NaN` in javascript?
+### What is the output of the following:
+```javascript
+console.log(2 + 3);
+console.log(2 + '3');
+
+console.log(2 + 3 + 4);
+console.log(2 + '3' + 4);
+console.log(2 + '3' + '4');
+
+console.log(false + true);
+console.log(true + true);
+console.log(false + false);
+```
 
 ## Hoisting
 
@@ -40,7 +53,7 @@ var f2 = function() {
 ## Functions
 
 ### What are the different ways to define function in javascript?
-### What is the difference between function and method?
+### What is the difference between function, method and constructor?
 ### What is the difference between normal function and arrow function?
 ### What is the output of the following:
 ```javascript
@@ -74,19 +87,20 @@ var f2 = function() {
   obj.f2();
   obj.f3();
 ```
-### What's the difference between `call`, `apply` and `bind` method?
-
-## Closure
-
+### What is the difference between `call`, `apply` and `bind` method?
+### What is IIFE (Immediately Invoked Function Expression)?
+### What is callback?
+### What is the difference between setTimeout and setInterval?
 ### What is closure and what are its advantages and disadvantages?
 ### Define `add` function which can be invoked like below:
 ```javascript
 add(1)(2)(3); // return 6
 ```
+### What is the difference between debouncing and throttling?
 
 ## Equality Operators
 
-### What's the difference between `==` and `===`?
+### What is the difference between `==` and `===`?
 ### What is the output of the following:
 ```javascript
 console.log(2==2);
@@ -120,3 +134,9 @@ array.repeat(2); // return [1, 1, 2, 2, 3, 3];
 array.repeat(3); // return [1, 1, 1, 2, 2, 2, 3, 3, 3];
 [2, 3].repeat(1) // return [2,3]
 ```
+
+## Others
+
+### Is javascript a single threaded or multi-threaded language?
+### What is event loop and how it works?
+### What is the difference between `async` and `defer` attribute in script tag?
