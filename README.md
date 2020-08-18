@@ -138,6 +138,8 @@ console.log({} === {});
 ```
 ## Arrays
 
+### What are the different ways to define array in Javascript? 
+### What are the different ways to iterate through array in Javascript? 
 ### What's the difference between `slice` and `splice` methods?
 ### Define a `repeat` function on array which which can be invoked like below:
 ```javascript
