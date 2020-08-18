@@ -53,6 +53,17 @@ var f2 = function() {
 ## Functions
 
 ### What are the different ways to define function in Javascript?
+### What is the output of the following:
+```javascript
+  function f1() {
+    return
+    {
+      a: 1,
+      b: 2
+    }
+  }
+  console.log(f1().a);
+```
 ### What is the difference between function, method and constructor?
 ### What is the difference between normal function and arrow function?
 ### What is the output of the following:
@@ -133,7 +144,7 @@ console.log({} === {});
 var array = [1, 2, 3]
 array.repeat(2); // return [1, 1, 2, 2, 3, 3];
 array.repeat(3); // return [1, 1, 1, 2, 2, 2, 3, 3, 3];
-[2, 3].repeat(1) // return [2,3]
+[2, 3].repeat(1) // return [2, 3]
 ```
 ### What is the use of `map`, `filter`, `every`, `some` and `reduce` method in Javascript?
 
