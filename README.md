@@ -52,7 +52,7 @@ var f2 = function() {
 
 ## Functions
 
-### What are the different ways to define function in javascript?
+### What are the different ways to define function in Javascript?
 ### What is the difference between function, method and constructor?
 ### What is the difference between normal function and arrow function?
 ### What is the output of the following:
@@ -88,6 +88,7 @@ var f2 = function() {
   obj.f3();
 ```
 ### What is the difference between `call`, `apply` and `bind` method?
+### What is `arguments` keyword?
 ### What is IIFE (Immediately Invoked Function Expression)?
 ### What is callback?
 ### What is the difference between setTimeout and setInterval?
@@ -126,7 +127,7 @@ console.log({} === {});
 ```
 ## Arrays
 
-### What's the difference between `slice` and `splice` method?
+### What's the difference between `slice` and `splice` methods?
 ### Define a `repeat` function on array which which can be invoked like below:
 ```javascript
 var array = [1, 2, 3]
@@ -134,6 +135,11 @@ array.repeat(2); // return [1, 1, 2, 2, 3, 3];
 array.repeat(3); // return [1, 1, 1, 2, 2, 2, 3, 3, 3];
 [2, 3].repeat(1) // return [2,3]
 ```
+### What is the use of `map`, `filter`, `every`, `some` and `reduce` method in Javascript?
+
+## Objects
+
+### What are the different ways to define objects in Javascript?
 
 ## Others
 
