@@ -119,7 +119,7 @@ console.log(2==2);
 console.log(2===2);
 
 console.log(2=='2');
-console.log(2=='2');
+console.log(2==='2');
 
 console.log(undefined == null);
 console.log(undefined === null);
